@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "five-bullet-friday"
+version = "0.1.0"
+description = ""
+authors = ["Dylan Price <the.dylan.price@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fbf", from = "src"}]
+
+[tool.poetry.scripts]
+transcribe = "fbf.transcribe:main"
+five-bullet-friday = "fbf.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai-whisper = "^20231117"
+langchain = "^0.1.17"
+langchain-openai = "^0.1.5"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+flake8-black = "^0.3.6"
+flake8-isort = "^6.1.1"
+jupyter-console = "^6.6.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

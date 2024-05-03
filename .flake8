@@ -1,0 +1,13 @@
+[flake8]
+# ignore hidden files
+exclude = *.*/*
+# The settings below help flake8, flake8-bugbear, and flake8-black coexist
+# productively without fighting each other.
+# They are sourced from a combo of:
+# https://github.com/PyCQA/flake8-bugbear#how-to-enable-opinionated-warnings
+# https://black.readthedocs.io/en/stable/guides/using_black_with_other_tools.html#flake8
+select = C,E,F,W,B,B950,BLK,I
+max-line-length = 80
+extend-ignore = E203, E501, W503
+max-complexity = 15
+
