@@ -6,6 +6,9 @@ poetry install
 
 ## Example usage
 
+<details>
+<summary>Zoom call between Chris and Dylan</summary>
+
 ```
 $ ls audios/
 GMT20240503-181236_Recording.mp4
@@ -34,7 +37,7 @@ Have a great weekend,
 Chris
 ```
 
-## Rendered version
+### Rendered version
 
 Hi all -
 
@@ -58,6 +61,65 @@ Your Five Bullet Friday:
 Have a great weekend,
 
 Chris
+</details>
+
+<details>
+<summary>Apple WWDC 2023</summary>
+
+```bash
+$ ls audios/
+apple-wwdc-2023.mp3
+$ ls transcripts/
+$ OPENAI_API_KEY=... poetry run five-bullet-friday audios/ transcripts/
+Hi all -
+
+Your Five Bullet Friday:
+
+1) **Introduction of the 15-inch MacBook Air**
+   - Apple announced the launch of the new 15-inch MacBook Air, which is described as the world's best 15-inch laptop due to its thin and light design, exceptional performance, and all-day battery life. It features the M2 chip, making it significantly faster than the fastest Intel-based MacBook Air models.
+
+2) **Mac Studio and Mac Pro Updates**
+   - The Mac Studio has been updated to include the M2 Max and the new M2 Ultra chips, enhancing its performance significantly for professional use in fields like video processing and 3D rendering. The Mac Pro now integrates Apple Silicon with M2 Ultra, offering substantial performance improvements and flexibility with PCI expansion.
+
+3) **Enhancements in iOS 17**
+   - iOS 17 introduces new features focused on improving user communication with updates to the Phone, FaceTime, and Messages apps. Notable additions include personalized contact posters, live voicemail transcriptions, and more immersive and interactive ways to share content through AirDrop.
+
+4) **Revolutionary Apple Vision Pro**
+   - Apple unveiled the Vision Pro, a new AR platform that blends digital content with the real world, creating immersive experiences. It operates with a fully three-dimensional interface controlled by eyes, hands, and voice, aiming to redefine personal computing, work, and entertainment.
+
+5) **Advancements in macOS Sonoma**
+   - macOS Sonoma will feature enhanced gaming experiences, better personalization through interactive widgets, and new productivity tools for video conferencing. It also includes significant updates to Safari for improved browsing privacy and efficiency.
+
+Have a great weekend,
+
+Chris
+```
+
+### Rendered version
+
+Hi all -
+
+Your Five Bullet Friday:
+
+1) **Introduction of the 15-inch MacBook Air**
+   - Apple announced the launch of the new 15-inch MacBook Air, which is described as the world's best 15-inch laptop due to its thin and light design, exceptional performance, and all-day battery life. It features the M2 chip, making it significantly faster than the fastest Intel-based MacBook Air models.
+
+2) **Mac Studio and Mac Pro Updates**
+   - The Mac Studio has been updated to include the M2 Max and the new M2 Ultra chips, enhancing its performance significantly for professional use in fields like video processing and 3D rendering. The Mac Pro now integrates Apple Silicon with M2 Ultra, offering substantial performance improvements and flexibility with PCI expansion.
+
+3) **Enhancements in iOS 17**
+   - iOS 17 introduces new features focused on improving user communication with updates to the Phone, FaceTime, and Messages apps. Notable additions include personalized contact posters, live voicemail transcriptions, and more immersive and interactive ways to share content through AirDrop.
+
+4) **Revolutionary Apple Vision Pro**
+   - Apple unveiled the Vision Pro, a new AR platform that blends digital content with the real world, creating immersive experiences. It operates with a fully three-dimensional interface controlled by eyes, hands, and voice, aiming to redefine personal computing, work, and entertainment.
+
+5) **Advancements in macOS Sonoma**
+   - macOS Sonoma will feature enhanced gaming experiences, better personalization through interactive widgets, and new productivity tools for video conferencing. It also includes significant updates to Safari for improved browsing privacy and efficiency.
+
+Have a great weekend,
+
+Chris
+</details>
 
 ## Whisper vs Whisper.cpp
 
