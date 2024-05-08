@@ -1,7 +1,16 @@
 # Five Bullet Friday 
 
+Playing around with [whisper](https://github.com/openai/whisper) and the [chatgpt api](https://platform.openai.com/docs/api-reference).
+
+It's a simple cli tool that will transcribe a set of audio files then summarize them in a specific five bullet format.
+
+## Setup
+
+You need [poetry](https://python-poetry.org/docs/). Then simply
+
 ```bash
 poetry install
+poetry run five-bullet-friday --help
 ```
 
 ## Example usage
